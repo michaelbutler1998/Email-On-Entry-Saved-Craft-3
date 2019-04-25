@@ -1,0 +1,23 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Entry Count plugin for Craft CMS 3.x
+ *
+ * Entry Count Settings.twig
+ *
+ * @author    Michael Butler
+ * @copyright Copyright (c) 2019 Michael Butler
+ * @link      https://github.com/michaelbutler1998
+ * @package   Michael Butler
+ * @since     1.0.0
+ */
+#}
+{# This is part of the plugin -- allows you to create forms #}
+{% import "_includes/forms" as forms %}
+
+{{ forms.textareaField({
+	label: "Email Address" | t('Email address'),
+	instructions: "Please enter the email address that you would like the email to be sent to once an entry is saved as a draft",
+	name: 'emailAddresss',
+	value: settings.emailAddresss,
+}) }}

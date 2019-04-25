@@ -1,0 +1,43 @@
+{
+    "name": "michaelbutler/email-on-entry-saved-craft-3",
+    "description": "Email will be sent to the user within settings when an entry is saved as a draft",
+    "type": "craft-plugin",
+    "version": "1.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "email on entry saved"
+    ],
+    "support": {
+        "docs": "https://github.com/michaelbutler1998/email-on-entry-saved-craft-3/blob/master/README.md",
+        "issues": "https://github.com/michaelbutler1998/email-on-entry-saved-craft-3/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Butler",
+            "homepage": "ipopdigital.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "michaelbutler\\emailonentrysavedcraft3\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "email on entry saved craft 3",
+        "handle": "email-on-entry-saved-craft-3",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/michaelbutler1998/email-on-entry-saved-craft-3/master/CHANGELOG.md",
+        "class": "michaelbutler\\emailonentrysavedcraft3\\EmailOnEntrySavedCraft3",
+        "components": {
+            "emailOnEntrySavedCraft3Service": "michaelbutler\\emailonentrysavedcraft3\\services\\EmailOnEntrySavedCraft3Service"
+        }
+    }
+}
