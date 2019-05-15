@@ -1,6 +1,6 @@
-# entry count plugin for Craft CMS 3.x
+# email on entry saved craft 3 plugin for Craft CMS 3.x
 
-entry count
+email on entry saved craft 3
 
 ![Screenshot](resources/img/plugin-logo.png)
 
@@ -20,21 +20,21 @@ To install the plugin, follow these instructions.
 
         composer require michaelbutler1998/email-on-entry-saved-craft-3
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for entry count.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for email on entry saved craft 3.
 
-## entry count Overview
-
--Insert text here-
-
-## Configuring entry count
+## email on entry saved craft 3Overview
 
 -Insert text here-
 
-## Using entry count
+## Configuring email on entry saved craft 3
 
 -Insert text here-
 
-## entry count Roadmap
+## Using email on entry saved craft 3
+
+-Insert text here-
+
+## email on entry saved craft 3 Roadmap
 
 Some things to do, and ideas for potential features:
 

@@ -1,4 +1,4 @@
-# entry count Changelog
+# email on entry saved craft 3 Changelog
 
 All notable changes to this project will be documented in this file.
 
